@@ -1,0 +1,39 @@
+package com.company;
+import java.util.Scanner;
+public class Main {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("enter student name");
+        String x = scanner.next();
+        System.out.println("enter father name");
+        String y = scanner.next();
+        System.out.println("enter mother name");
+        String z = scanner.next();
+        System.out.println("enter permanent address");
+        String r = scanner.next();
+        System.out.println("enter student contact number");
+        Long p = scanner.nextLong();
+        System.out.println("enter father's contact number");
+        Long q = scanner.nextLong();
+        System.out.println("enter mother's contact number");
+        Long s = scanner.nextLong();
+        System.out.println("enter 10th percentage");
+        Double w = scanner.nextDouble();
+        System.out.println("enter 12th percentage");
+        Double g = scanner.nextDouble();
+        System.out.println("hostel choice ");
+        boolean k = scanner.nextBoolean();
+        System.out.println("student name - "+ x);
+        System.out.println("father's name -"+ y);
+        System.out.println("mother's name - "+ z);
+        System.out.println("permanent address - "+ r);
+        System.out.println("student contact number - "+ p);
+        System.out.println("father's contact number - "+ q);
+        System.out.println("mother's contact number - "+ s);
+        System.out.println("10th percentage - "+ w+"%");
+        System.out.println("12th percentage - "+ g+"%");
+        System.out.println("hostel choice -  "+ k);
+        scanner.close();
+    }
+}
